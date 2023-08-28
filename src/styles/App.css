@@ -1,1 +1,26 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: rgb(115,255,0);
+    height: 45vh;
+    padding: 20px;
+}
+.child-1{
+    background-color: rgb(205,90,25);
+    height: 15vh;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+.child-2{
+    background-color: rgb(255,207,0);
+    height: 15vh;
+    padding: 10px 5px;
+}
+button{
+    margin-top: 20px;
+    padding: auto;
+    width: 70px;
+}
